@@ -34,7 +34,8 @@
 	$( document ).ready( function() {
 		$(".srf-gallery").lightGallery({
 			selector: 'a', 
-			download: false
+			download: false,
+			preload: 4
 		});
 	} );
 } )( jQuery, mediaWiki, semanticFormats  );
